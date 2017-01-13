@@ -95,7 +95,6 @@ namespace XMLReaderSample_GIT
             {
                 Console.WriteLine("NODE: " + node.InnerXml);
                 Console.WriteLine("preffix: " + node.Name.ToString());
-                Console.WriteLine("______________________________________________");
                 Console.WriteLine("FirstNodeURI: " + node.SelectSingleNode("/ns:item/ns:title", xmlNSMgr).InnerText);
                 //Console.WriteLine("_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_");
             }
